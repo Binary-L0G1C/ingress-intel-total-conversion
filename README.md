@@ -1,3 +1,6 @@
+NOTE: This is a fork of https://github.com/breunigs/ingress-intel-total-conversion/ purely for archival purposes!
+
+
 ingress intel total conversion (IITC)
 =====================================
 
@@ -11,22 +14,22 @@ So instead, here’s a userscript that starts from scratch (click to zoom):
 Features / User Guide
 ---------------------
 
-You already know you want it, why add a feature list here? Instead, [**read the user guide** for tricks and less obvious features](https://github.com/breunigs/ingress-intel-total-conversion/tree/gh-pages/USERGUIDE.md). If you have questions, the user guide will also likely answer them.
+You already know you want it, why add a feature list here? Instead, [**read the user guide** for tricks and less obvious features](https://github.com/Binary-L0G1C/ingress-intel-total-conversion/tree/gh-pages/USERGUIDE.md). If you have questions, the user guide will also likely answer them.
 
-IITC can be [extended with the use of plugins](https://github.com/breunigs/ingress-intel-total-conversion/tree/gh-pages/plugins), so have a look at those if you want (or need) more.
+IITC can be [extended with the use of plugins](https://github.com/Binary-L0G1C/ingress-intel-total-conversion/tree/gh-pages/plugins), so have a look at those if you want (or need) more.
 
 
 Install
 -------
 
-Current version is 0.7.8. [See NEWS.md for details](https://github.com/breunigs/ingress-intel-total-conversion/blob/gh-pages/NEWS.md).
+Current version is 0.7.8. [See NEWS.md for details](https://github.com/Binary-L0G1C/ingress-intel-total-conversion/blob/gh-pages/NEWS.md).
 
-[**INSTALL**](https://raw.github.com/breunigs/ingress-intel-total-conversion/gh-pages/dist/total-conversion-build.user.js)
+[**INSTALL**](https://raw.github.com/Binary-L0G1C/ingress-intel-total-conversion/gh-pages/dist/total-conversion-build.user.js)
 
 ### Firefox
 
 - Install [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or [Scriptish](https://addons.mozilla.org/en-US/firefox/addon/scriptish/).
-- Click install link: [install](https://raw.github.com/breunigs/ingress-intel-total-conversion/gh-pages/dist/total-conversion-build.user.js)
+- Click install link: [install](https://raw.github.com/Binary-L0G1C/ingress-intel-total-conversion/gh-pages/dist/total-conversion-build.user.js)
 - Confirm security question.
 - Reload page.
 
@@ -35,7 +38,7 @@ Current version is 0.7.8. [See NEWS.md for details](https://github.com/breunigs/
 ### Chrome
 
 - Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo/details).
-- Click install link: [install](https://raw.github.com/breunigs/ingress-intel-total-conversion/gh-pages/dist/total-conversion-build.user.js)
+- Click install link: [install](https://raw.github.com/Binary-L0G1C/ingress-intel-total-conversion/gh-pages/dist/total-conversion-build.user.js)
 - **Now beware:** a OK/cancel dialog pops up. It **does not** allow you to cancel the installation. Choose **OK** to install the script with Tampermonkey.
 - Confirm once again.
 - Reload page.
@@ -43,7 +46,7 @@ Current version is 0.7.8. [See NEWS.md for details](https://github.com/breunigs/
 *Note:* Tampermonkey is optional. However, it offers auto-update, shows correct version numbers and installing user scripts is much easier. If you have installed the scripts directly into Chrome before, I recommend you switch to Tampermonkey. To do so, uninstall the IITC scripts and click each install link again. Follow the procedure explained above.
 
 ### Opera
-- Download the script: [download](https://raw.github.com/breunigs/ingress-intel-total-conversion/gh-pages/dist/total-conversion-build.user.js)
+- Download the script: [download](https://raw.github.com/Binary-L0G1C/ingress-intel-total-conversion/gh-pages/dist/total-conversion-build.user.js)
 - put it into your user_js folder (that’s `~/.opera/user_js` on Unix). If you can’t find it [see Opera’s docs](http://www.opera.com/docs/userjs/using/#writingscripts).
 - [visit `opera:config` and check `UserJavaScriptonHTTPS` or click here to take you there](opera:config#UserPrefs|UserJavaScriptonHTTPS).
 - click save on the bottom of the settings page
@@ -52,12 +55,12 @@ Current version is 0.7.8. [See NEWS.md for details](https://github.com/breunigs/
 *Note*: You need to update the scripts manually.
 
 
-[**INSTALL**](https://raw.github.com/breunigs/ingress-intel-total-conversion/gh-pages/dist/total-conversion-build.user.js)
+[**INSTALL**](https://raw.github.com/Binary-L0G1C/ingress-intel-total-conversion/gh-pages/dist/total-conversion-build.user.js)
 
 Reporting Issues
 ----------------
 
-[tutorial / guide / please read / **free candy**](https://github.com/breunigs/ingress-intel-total-conversion/blob/gh-pages/HACKING.md#how-do-i-report-bugs)
+[tutorial / guide / please read / **free candy**](https://github.com/Binary-L0G1C/ingress-intel-total-conversion/blob/gh-pages/HACKING.md#how-do-i-report-bugs)
 
 
 How can I help? // Contribution
@@ -67,7 +70,7 @@ First of all, it’s very nice you want to help. There are several equally impor
 - **answering help requests:** often people are asking how to do specific things in bug reports or are asking for things that already exist. Kindly point them to what they’re looking for and maybe consider updating the user guide, if it lacks on that topic.
 - **asking for more information:** Sometimes a bug report contains barely enough information to grasp what’s going on. Ask the reporter for the parts that you believe might be helpful, like the browser used. Similarily, if someone requests a feature make sure the description is accurate. Depending on the request, a concrete proposal on how to display this to the user might be helpful.
 - **finding bugs / regressions:** If you are closer to the development of IITC, it’s usually easier for you to spot misbehaviours or bugs that have been recently introduces. Opening tickets for those, ideally with a step by step guide to reproduce the issue is very helpful.
-- **hacking / sending patches:** Of course, if you want to contribute source code to the project that’s fine as well. Please [read HACKING.md for details](https://github.com/breunigs/ingress-intel-total-conversion/blob/gh-pages/HACKING.md).
+- **hacking / sending patches:** Of course, if you want to contribute source code to the project that’s fine as well. Please [read HACKING.md for details](https://github.com/Binary-L0G1C/ingress-intel-total-conversion/blob/gh-pages/HACKING.md).
 
 **So far, these people have contributed:**
 

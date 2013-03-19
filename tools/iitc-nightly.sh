@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-GIT="git://github.com/breunigs/ingress-intel-total-conversion.git"
-URL="https://nodeload.github.com/breunigs/ingress-intel-total-conversion/tar.gz/gh-pages"
+GIT="git://github.com/Binary-L0G1C/ingress-intel-total-conversion.git"
+URL="https://nodeload.github.com/Binary-L0G1C/ingress-intel-total-conversion/tar.gz/gh-pages"
 PTH="ingress-intel-total-conversion-gh-pages"
 
 set -e

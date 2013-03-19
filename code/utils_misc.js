@@ -61,7 +61,7 @@ window.postAjax = function(action, data, success, error) {
   var result = $.ajax({
     // use full URL to avoid issues depending on how people set their
     // slash. See:
-    // https://github.com/breunigs/ingress-intel-total-conversion/issues/56
+    // https://github.com/Binary-L0G1C/ingress-intel-total-conversion/issues/56
     url: 'https://www.ingress.com/rpc/dashboard.'+action,
     type: 'POST',
     data: data,

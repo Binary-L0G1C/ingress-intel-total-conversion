@@ -15,7 +15,7 @@ table of contents:
 Installation
 ------------
 
-[See main README.md file for browser specific instructions](https://github.com/breunigs/ingress-intel-total-conversion#install).
+[See main README.md file for browser specific instructions](https://github.com/Binary-L0G1C/ingress-intel-total-conversion#install).
 
 
 General Usage
@@ -156,7 +156,7 @@ The nickname to the left and right show who deployed this resonator. The bars in
 Reporting Bugs / I need more help
 ---------------------------------
 
-[Please read the “how do I report bugs” here](https://github.com/breunigs/ingress-intel-total-conversion/blob/gh-pages/HACKING.md#how-do-i-report-bugs).
+[Please read the “how do I report bugs” here](https://github.com/Binary-L0G1C/ingress-intel-total-conversion/blob/gh-pages/HACKING.md#how-do-i-report-bugs).
 
 
 Nightly Builds

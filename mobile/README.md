@@ -21,7 +21,7 @@ IITC Mobile (IITCM)
 How to report bugs
 ------------------
 
-Be sure to [read the normal guide on how to report bugs](https://github.com/breunigs/ingress-intel-total-conversion/blob/gh-pages/HACKING.md#how-do-i-report-bugs). In addition, provide these details:
+Be sure to [read the normal guide on how to report bugs](https://github.com/Binary-L0G1C/ingress-intel-total-conversion/blob/gh-pages/HACKING.md#how-do-i-report-bugs). In addition, provide these details:
 - Android version
 - device used (exact name)
 - screen size in pixels
@@ -58,7 +58,7 @@ Debugging
 
 If you want to debug the APK, I suggest [reading up on Google’s documentation](https://developer.android.com/index.html).
 
-Debugging IITC(M) **after** it has booted is relatively easy: you can switch to the “debug” tab, which is a low end developer console. It renders all calls to `console.*`, so you can use it just like you expect. It may be easier to develop in a desktop browser. Set it up like explained [in the normal hacking guide](https://github.com/breunigs/ingress-intel-total-conversion/blob/gh-pages/HACKING.md), but fake your user agent or modify the detection in `code/smartphone.js` and `main.js`. You don’t need to rebuild the APK to point it to your `iitc-test.user.js` file. Instead, modify `mobile/bootstrap.js` and add yourself with device ID and URL, then [send in a pull request](https://github.com/breunigs/ingress-intel-total-conversion/blob/gh-pages/HACKING.md#sending-patches). The device ID is printed to the debug console on IITC boot.
+Debugging IITC(M) **after** it has booted is relatively easy: you can switch to the “debug” tab, which is a low end developer console. It renders all calls to `console.*`, so you can use it just like you expect. It may be easier to develop in a desktop browser. Set it up like explained [in the normal hacking guide](https://github.com/Binary-L0G1C/ingress-intel-total-conversion/blob/gh-pages/HACKING.md), but fake your user agent or modify the detection in `code/smartphone.js` and `main.js`. You don’t need to rebuild the APK to point it to your `iitc-test.user.js` file. Instead, modify `mobile/bootstrap.js` and add yourself with device ID and URL, then [send in a pull request](https://github.com/Binary-L0G1C/ingress-intel-total-conversion/blob/gh-pages/HACKING.md#sending-patches). The device ID is printed to the debug console on IITC boot.
 
 Debugging IITC(M) **before** it has booted requires the Android Developer Tools. Connecting your device and running `adb logcat` should print the debug log to your computer until the low-end dev console mentioned above is available. You may need to root your device.
 
